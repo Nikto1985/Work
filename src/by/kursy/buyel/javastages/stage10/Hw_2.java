@@ -1,4 +1,4 @@
-package by.kursy.buyel.stages.stage10;
+package by.kursy.buyel.javastages.stage10;
 import java.util.Scanner;
 import java.util.Random;
 
