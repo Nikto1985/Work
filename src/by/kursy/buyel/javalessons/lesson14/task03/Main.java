@@ -14,7 +14,7 @@ public class Main {
 
         ArraySorter.selectedSortAcs(array);
 
-        Printer.print("After sorting: ");
+        Printer.print("\nAfter sorting: ");
         Printer.print(Arrays.toString(array));
     }
 }
