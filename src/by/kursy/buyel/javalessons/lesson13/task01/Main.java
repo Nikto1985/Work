@@ -1,7 +1,7 @@
 package by.kursy.buyel.javalessons.lesson13.task01;
 
-import by.kursy.buyel.javalessons.lesson13.util.ArrayInicializer;
-import by.kursy.buyel.javalessons.lesson13.util.Convertor;
+import by.kursy.buyel.javalessons.lesson14.task02.util.ArrayInicializer;
+import by.kursy.buyel.javalessons.lesson14.task02.util.Convertor;
 import by.kursy.buyel.javalessons.view.Printer;
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package by.kursy.buyel.javalessons.lesson13.util;
+package by.kursy.buyel.javalessons.lesson14.task02.util;
 
 import java.util.Random;
 import java.util.Scanner;

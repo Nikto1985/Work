@@ -1,4 +1,4 @@
-package by.kursy.buyel.javalessons.lesson13.util;
+package by.kursy.buyel.javalessons.lesson14.task02.util;
 
 public class Convertor {
     public static String convertFromArrayToString(int[] array){
