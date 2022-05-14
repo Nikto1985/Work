@@ -1,7 +1,7 @@
 package by.kursy.buyel.javalessons.lesson17.model;
 
 public class Student {
-    private String name;
+    String name;
 
     public Student(){
         name =  "no name";
