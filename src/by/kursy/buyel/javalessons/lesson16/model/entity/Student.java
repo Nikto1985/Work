@@ -49,7 +49,7 @@ public class Student {
         age = student.age;
         mark = student.mark;
         sex = student.sex;
-        alive = student.alive
+        alive = student.alive;
     }
 
     {
