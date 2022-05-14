@@ -22,8 +22,7 @@ public class Student extends Human{
     public Student(String name, int age, double mark, boolean alive) {
 //        setName(name);
 //        setAge(age);
-        this.name = name;
-        this.age = age
+        super(name, age);
         this.mark = mark;
         this.alive = alive;
     }
@@ -48,8 +47,7 @@ public class Student extends Human{
 
     @Override
     public String toString() {
-        return getName() + ":" +
-                " age=" + getAge() +
+        return super.toString() +
                 ", mark=" + mark +
                 ", is alive=" + (alive ? "yes" : "no");
     }
