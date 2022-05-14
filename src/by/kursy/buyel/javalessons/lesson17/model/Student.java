@@ -11,15 +11,19 @@ public class Student extends Human{
    private boolean alive;
 
     public Student() {
-        setName("Alex");
-        setAge(16);
+//        setName("Alex");
+//        setAge(16);
+        name = "Alex";
+        age = 16;
         mark = 4;
         alive = true;
     }
 
     public Student(String name, int age, double mark, boolean alive) {
-        setName(name);
-        setAge(age);
+//        setName(name);
+//        setAge(age);
+        this.name = name;
+        this.age = age
         this.mark = mark;
         this.alive = alive;
     }

@@ -2,8 +2,8 @@ package by.kursy.buyel.javalessons.lesson17.model;
 
 public class Human {
 
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
 
     public Human() {
     }
