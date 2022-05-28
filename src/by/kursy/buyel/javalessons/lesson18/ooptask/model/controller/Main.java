@@ -5,8 +5,11 @@ import by.kursy.buyel.javalessons.lesson18.ooptask.model.entity.Rose;
 
 public class Main {
     public static void main(String[] args) {
-        Flower flower = new Rose();
-        Rose rose = (Rose) flower;
+        Rose[] flowers = new Rose[][10];
+        double total = 0;
+        for (int i = 0; i < flowers.length; i++) {
+            total +=flowers[i].getPrice();
+        }
 
 
 
