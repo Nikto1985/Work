@@ -1,11 +1,11 @@
 package by.kursy.buyel.javalessons.lesson18.ooptask.model.entity;
 
 public class Chamomile {
-    private String name;
-    private String color;
-    private double price;
-    private double weight;
-    private int length;
+    public String name;
+    public String color;
+    public double price;
+    public double weight;
+    public int length;
 
     // default constructor
     public Chamomile() {
@@ -17,7 +17,7 @@ public class Chamomile {
     }
 
     // constructor with params #1
-    public Chamomile(String name, String color, double price, double weight, int length) {
+      public Chamomile(String name, String color, double price, double weight, int length) {
         this.name = name;
         this.color = color;
         this.price = price;

@@ -1,11 +1,11 @@
 package by.kursy.buyel.javalessons.lesson18.ooptask.model.entity;
 
 public class Flower {
-    private String name;
-    private String color;
-    private double price;
-    private double weight;
-    private int length;
+    public String name;
+    public String color;
+    public double price;
+    public double weight;
+    public int length;
 
     // default constructor
     public Flower() {
