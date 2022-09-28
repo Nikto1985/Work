@@ -32,18 +32,16 @@ public class ShopAssistanceTest {
         assertEquals(expected, actual, 0.0);
     }
 
-    @BeforeClass
     private static Bouquet bouquet;
     public static void init(){
-        static {Flower[] flowers = {
+        Flower[] flowers = {
                 new Flower("Rose", "red", 3.0, 100, 100),
                 new Flower("Rose", "red", 3.0, 100, 100),
                 new Flower("Rose", "red", 3.0, 100, 100),
                 new Flower("Rose", "red", 3.0, 100, 100),
                 new Flower("Rose", "red", 3.0, 100, 100),
         };
-            bouquet = new Bouquet(flowers);
-        }
+        bouquet = new Bouquet(flowers);
 
     }
     @AfterClass
